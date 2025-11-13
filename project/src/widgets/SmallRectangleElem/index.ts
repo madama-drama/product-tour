@@ -1,0 +1,1 @@
+export { SmallRectangleElem } from "./ui/SmallRectangleElem";

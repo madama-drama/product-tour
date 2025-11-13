@@ -1,0 +1,1 @@
+export { SquareElem } from "./ui/SquareElem";

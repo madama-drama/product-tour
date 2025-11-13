@@ -1,0 +1,15 @@
+.object{
+    width: 300px;
+    height: 200px;
+    border: solid, 3px, green;
+    border-radius: 20px;
+
+    margin: 10px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

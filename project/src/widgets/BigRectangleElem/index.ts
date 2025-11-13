@@ -1,0 +1,1 @@
+export { BigRectangleElem } from "./ui/BigRectangleElem";
