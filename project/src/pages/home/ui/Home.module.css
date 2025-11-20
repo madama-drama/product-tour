@@ -15,12 +15,3 @@
     top: 300px
 }
 
-.popup{
-    display: flex;
-    gap: 20px;
-    min-width: 300px;
-    min-height: 100px;
-    border-radius: 10px;
-
-    background-color: red;
-}
