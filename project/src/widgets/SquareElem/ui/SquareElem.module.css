@@ -4,10 +4,9 @@
     border: solid, 3px, blue;
     border-radius: 10px;
 
-    margin: 10px;
-    position: absolute;
-    bottom: -180px;
-    left: 40px;
+    margin-top: 500px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 
     display: flex;
     justify-content: center;

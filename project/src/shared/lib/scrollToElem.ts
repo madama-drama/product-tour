@@ -1,5 +1,4 @@
-export const scrollToElem = (elemId: string, topShift = 0) => {
-  const elem = document.getElementById(elemId);
+export const scrollToElem = (elem: Element, topShift = 0) => {
   if (!elem) {
     return null;
   }
@@ -10,4 +9,6 @@ export const scrollToElem = (elemId: string, topShift = 0) => {
     top: window.scrollY + coord.top - topShift,
     behavior: "instant",
   });
+
+  console.log('after', window.scrollY);
 };

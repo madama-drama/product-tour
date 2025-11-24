@@ -23,7 +23,7 @@ export const productTour: IProductTour = {
     },
     {
       id: "green",
-      header: "Шаг 2 (popperPlacement: right)",
+      header: "Шаг 2",
       description:
         "Тестовый шаг 2. C очень длинным описанием. C Очень длинным. С ОЧЕНЬ. ОЧЕНЬ ДЛИННЫМ. Очень-очень-очень-очень. Cколько ж можно, сколько ж можно, сколько ж можно, сколько ж можно",
       selector: "#green",
@@ -41,6 +41,7 @@ export const productTour: IProductTour = {
       header: "Шаг 4 (со скроллом)",
       description: "Тестовый шаг 4",
       selector: "#blue",
+      popperPlacement: 'right'
     },
   ],
 };

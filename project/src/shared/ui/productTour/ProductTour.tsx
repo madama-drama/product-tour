@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import { autoPlacement, offset, useFloating } from "@floating-ui/react-dom";
+import React, {  useRef } from "react";
+import { flip, offset, useFloating } from "@floating-ui/react-dom";
 
 import Style from "./ProductTour.module.css";
 
@@ -15,7 +15,7 @@ export const ProductTour = () => {
 
   const { refs, floatingStyles } = useFloating({
     placement: dataAboutPopup?.popperPlacement,
-    middleware: [offset(10), autoPlacement()],
+    middleware: [offset(10), flip()],
   });
 
   if (!dataAboutPopup) {
@@ -29,8 +29,8 @@ export const ProductTour = () => {
     return null;
   }
 
+  scrollToElem(elem, 20);
   body.style.overflow = "hidden";
-  scrollToElem("referenceBlock", 20);
 
   const absCoord = elem.getBoundingClientRect();
 
