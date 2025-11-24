@@ -5,7 +5,8 @@ import Style from "./ProductTour.module.css";
 
 import { useProductTourStore } from "../../lib/useSTore";
 import { Popup } from "../../../widgets/Popup";
-import { scrollToElem } from "../../lib/scrollToElem";
+// import { scrollToElem } from "../../lib/scrollToElem";
+import { launchingScroll } from "../../lib/launchingScroll";
 
 export const ProductTour = () => {
   const body = document.body;
@@ -29,7 +30,7 @@ export const ProductTour = () => {
     return null;
   }
 
-  scrollToElem(elem, 20);
+  launchingScroll(elem)
   body.style.overflow = "hidden";
 
   const absCoord = elem.getBoundingClientRect();
