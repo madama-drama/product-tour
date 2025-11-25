@@ -1,4 +1,4 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 
 import Style from "./Popup.module.css";
 import { useProductTourStore } from "../../../shared/lib/useSTore";

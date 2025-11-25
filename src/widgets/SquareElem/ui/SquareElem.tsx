@@ -1,5 +1,3 @@
-import React from "react";
-
 import Style from './SquareElem.module.css'
 
 export const SquareElem = (props: {id: string}) => {

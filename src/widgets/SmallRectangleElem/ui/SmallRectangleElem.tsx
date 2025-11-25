@@ -1,5 +1,3 @@
-import React from "react";
-
 import Style from './SmallRectangleElem.module.css'
 
 export const SmallRectangleElem = (props: {id: string}) => {

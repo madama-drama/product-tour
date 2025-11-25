@@ -1,7 +1,4 @@
-import React from "react";
-
 import Style from './CircleElem.module.css'
-
 
 export const CircleElem = (props: {id: string}) => {
     return(

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Style from './BigRectangleElem.module.css'
 
 export const BigRectangleElem = (props: {id: string}) => {
