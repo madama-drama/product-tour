@@ -7,6 +7,7 @@ interface IProps {
   header: string | undefined;
   description: string | undefined;
 }
+
 export const Popup: FC<IProps> = ({ header, description }) => {
   const stepNumber = useProductTourStore((state) => state.ind);
   const counterOfSteps = useProductTourStore(

@@ -5,7 +5,6 @@ import Style from "./ProductTour.module.css";
 
 import { useProductTourStore } from "../../lib/useSTore";
 import { Popup } from "../../../widgets/Popup";
-// import { scrollToElem } from "../../lib/scrollToElem";
 import { launchingScroll } from "../../lib/launchingScroll";
 
 export const ProductTour = () => {
