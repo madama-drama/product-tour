@@ -1,4 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+button{
+  all:unset;
+  min-width: 60px;
+  height: 30px;
+  border: solid, 2px, black;
+  border-radius: 6px;
+  text-align: center;
 }
